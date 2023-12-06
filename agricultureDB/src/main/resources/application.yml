@@ -1,0 +1,18 @@
+spring:
+  cassandra:
+    keyspace-name: agri_keyspace
+    username: XpkBpQRyYnlQUZCgByGfQkzj
+    password: 99GNs9ni-d0A6D_tbtDy8sKWeBpyv-3_ubQ3exvAr2bo,_t8haFBX2UJJZKRkAAdkImdOE1Cl9RlSj1bIJ,4rqkvMWIQdUT8SBXfy6o6NoKdu2JlrQt8GhD,UkcJfDta
+    schema-action: create-if-not-exists
+    
+
+datastax.astra:
+     secure-connect-bundle: classpath:secure-connect-agripriceanalysis.zip
+
+    
+    
+astra.db:
+    id: 72fa80c8-40e6-4bf2-95d4-5da6dead82b9
+    region: asia-south1
+    keyspace: agri_keyspace
+    application.token: AstraCS:XpkBpQRyYnlQUZCgByGfQkzj:143c9db769ac8f739b233bf206c507295cc8e40530fef371712402f5aa149d8a
